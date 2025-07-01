@@ -9,6 +9,7 @@ function success(position) {
 
 function error(err) {
     console.warn(`ERROR(${err.code}): ${err.message}`);
+    countryLabel.innerHTML = "<h2>Something went wrong</h2><p>Try reloading the website</p>"
 }
 
 async function reverseGeocode(lat, lon) {
