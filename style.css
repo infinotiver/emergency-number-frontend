@@ -43,7 +43,7 @@ body {
 }
 
 .location #change-location {
-    min-width:150px;
+    min-width: 150px;
     padding: 0.5em 1em;
     border: 0.5px solid #9292928b;
     border-radius: var(--border-radius);
@@ -83,17 +83,16 @@ body {
 .country-name {
     font-size: 1.2em;
 }
-
 #result {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1em;
     margin: 1.5em 2em;
     padding: 1em 2em;
     border: 1px solid #ccc;
     border-radius: var(--border-radius);
     min-width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
 }
 
 #result .card {
@@ -104,10 +103,15 @@ body {
     width: 100%;
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
+
 #result .card .card-icon {
     text-align: center;
 }
+
 #result .card .card-title {
     font-size: 0.8em;
     font-weight: 500;
@@ -117,6 +121,7 @@ body {
 }
 
 #result .card .card-number {
+    flex-grow: 1;
     font-size: 2em;
     font-weight: 700;
     text-align: center;
