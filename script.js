@@ -39,6 +39,7 @@ function renderResults(data) {
     resultsDiv.innerHTML = "";
     const police = `
     <div class="card">
+      <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
       <div class="card-title">Police</div>
       <div class="card-number">${data.police}</div>
     </div>
@@ -46,6 +47,7 @@ function renderResults(data) {
 
     const ambulance = `
     <div class="card">
+      <div class="card-icon"><i class="fa-solid fa-kit-medical"></i></div>
       <div class="card-title">Ambulance</div>
       <div class="card-number">${data.ambulance}</div>
     </div>
@@ -53,6 +55,7 @@ function renderResults(data) {
 
     const fire = `
     <div class="card">
+      <div class="card-icon"><<i class="fa-solid fa-fire-extinguisher"></i></div>
       <div class="card-title">Fire</div>
       <div class="card-number">${data.fire}</div>
     </div>

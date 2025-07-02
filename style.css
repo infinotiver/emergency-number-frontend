@@ -43,7 +43,7 @@ body {
 }
 
 .location #change-location {
-    max-width: 50%;
+    min-width:150px;
     padding: 0.5em 1em;
     border: 0.5px solid #9292928b;
     border-radius: var(--border-radius);
@@ -105,7 +105,9 @@ body {
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+#result .card .card-icon {
+    text-align: center;
+}
 #result .card .card-title {
     font-size: 0.8em;
     font-weight: 500;
