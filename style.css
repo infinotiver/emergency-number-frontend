@@ -58,8 +58,14 @@ body {
     margin: 1em 0.5em;
     display: none;
     height: 400px;
-    width: 100%;
-
+    width: 50%;
+    position: fixed;
+    top: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    z-index: 1000;
 }
 
 #map {
@@ -149,4 +155,12 @@ body {
     #result {
         flex-direction: column;
     }
+
+    #map-container {
+        margin: 1em 0.5em;
+        display: none;
+        height: 400px;
+        width: 80%;
+    }
+
 }
