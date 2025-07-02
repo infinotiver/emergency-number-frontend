@@ -47,6 +47,7 @@ body {
     padding: 0.5em 1em;
     border: 0.5px solid #9292928b;
     border-radius: var(--border-radius);
+    cursor: pointer;
 }
 
 .location #change-location:hover {
