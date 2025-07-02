@@ -53,6 +53,22 @@ body {
     background-color: antiquewhite;
 }
 
+#map-container {
+    margin: 1em 0.5em;
+    display: none;
+    height: 400px;
+    width: 100%;
+
+}
+
+#map {
+    border: 1px solid red;
+    background: #eee;
+    height: 100%;
+    width: 100%;
+    background: #eee;
+}
+
 #country-label {
     margin-bottom: 0.5em;
 }
@@ -98,11 +114,13 @@ body {
     margin: 0.5em 0;
     color: #333;
 }
+
 .disclaimer {
-    color:#4d4d4d;
+    color: #4d4d4d;
     text-align: center;
     font-size: 0.8em;
 }
+
 .credit {
     position: fixed;
     bottom: 10px;
